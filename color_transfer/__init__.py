@@ -4,9 +4,8 @@ import cv2
 
 def color_transfer(source, target):
 	"""
-	Transfers the color distribution from the source to the target
-	image using the mean and standard deviations of the L*a*b*
-	color space.
+	
+	使用LAB颜色空间的均值（Mean）和标准差（Standard Deviation），把source的颜色应用到target上。
 
 	This implementation is (loosely) based on to the "Color Transfer
 	between Images" paper by Reinhard et al., 2001.
